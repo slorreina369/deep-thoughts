@@ -17,6 +17,7 @@ export const QUERY_THOUGHTS = gql`
         }
     }
 `;
+
 export const QUERY_THOUGHT = gql`
     query thought($id: ID!) {
         thought(_id: $id) {
